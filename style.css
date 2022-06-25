@@ -1,0 +1,91 @@
+*
+	{
+		box-sizing:border-box;
+	}
+body
+	{
+		background-color: rgb(255,128,0);
+		margin:1%;
+	}
+.clearfix::after 
+	{
+		content:"";
+		clear:both;
+		display:table;
+	}	
+.spis
+	{
+		text-align:center;
+    	float:left;
+    	width:25%;
+        background-color:rgb(224,224,224);
+		height:84%;
+    }
+#powitanie
+	{
+		padding:5%;
+		font-size:20px;
+	}
+.tresc
+	{
+    	float:right;
+    	width:75%;
+		height:84%;
+		background-color:rgb(255,255,51);
+	}
+#tytul
+	{	
+		width:100%;
+		background-color:rgb(102,51,0);
+		color:white;
+		padding:10px;
+    	text-align:center;
+    }
+#tekst_zdjecie
+	{
+		height:100%;
+		width:100%;
+	}
+#zyciorys
+	{
+		float:left;
+		background-color:rgb(255,255,51);
+		width:100%;
+		height:50%;
+		font-size:20px;
+		padding:5%;
+	}
+#zdjecie
+	{
+		text-align:center;
+		background-color:rgb(255,255,51);
+		height:100%;
+		width:100%;
+	}
+#opis
+	{
+		padding:5%;
+		font-size:20px;
+		text-align: center;
+	}
+#stare
+	{
+		text-align:center;
+	}
+#zelazowa_wola
+	{
+		text-align:center;
+	}
+.fryderyk:hover
+{
+	color: rgb(51, 138, 39)
+}
+#koncert
+{
+	width: 400px;
+	height: 250px;
+}
+#stary
+{
+
+}
